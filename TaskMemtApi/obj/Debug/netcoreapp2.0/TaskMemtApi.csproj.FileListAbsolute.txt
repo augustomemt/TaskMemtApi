@@ -1,0 +1,11 @@
+C:\Users\Administrator\source\repos\TaskMemtApi\TaskMemtApi\bin\Debug\netcoreapp2.0\TaskMemtApi.deps.json
+C:\Users\Administrator\source\repos\TaskMemtApi\TaskMemtApi\bin\Debug\netcoreapp2.0\TaskMemtApi.runtimeconfig.json
+C:\Users\Administrator\source\repos\TaskMemtApi\TaskMemtApi\bin\Debug\netcoreapp2.0\TaskMemtApi.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\TaskMemtApi\TaskMemtApi\bin\Debug\netcoreapp2.0\TaskMemtApi.dll
+C:\Users\Administrator\source\repos\TaskMemtApi\TaskMemtApi\bin\Debug\netcoreapp2.0\TaskMemtApi.pdb
+C:\Users\Administrator\source\repos\TaskMemtApi\TaskMemtApi\obj\Debug\netcoreapp2.0\TaskMemtApi.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\TaskMemtApi\TaskMemtApi\obj\Debug\netcoreapp2.0\TaskMemtApi.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\TaskMemtApi\TaskMemtApi\obj\Debug\netcoreapp2.0\TaskMemtApi.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\TaskMemtApi\TaskMemtApi\obj\Debug\netcoreapp2.0\TaskMemtApi.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\TaskMemtApi\TaskMemtApi\obj\Debug\netcoreapp2.0\TaskMemtApi.dll
+C:\Users\Administrator\source\repos\TaskMemtApi\TaskMemtApi\obj\Debug\netcoreapp2.0\TaskMemtApi.pdb
