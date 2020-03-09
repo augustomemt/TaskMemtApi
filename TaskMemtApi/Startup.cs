@@ -10,7 +10,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using TaskMemtApi.Business;
 using TaskMemtApi.Models.Context;
+using TaskMemtApi.Repository.Generic;
 
 namespace TaskMemtApi
 {
@@ -27,8 +29,9 @@ namespace TaskMemtApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-
             services.AddDbContext<BaseContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Connection")));
+            services.AddScoped<IDepartamentBusiness, DepartamentBusiness>();
+            services.AddScoped(typeof(IRepository<>), (typeof(GenericRepository<>)));
         }
 
 
@@ -41,7 +44,16 @@ namespace TaskMemtApi
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseMvc();
+            app.UseMvc(routes => {
+
+                routes.MapRoute(
+
+                    name: "Defaut",
+                    template: "{controller=values}/{id?}"
+                    );
+
+
+            });
         }
     }
 }
